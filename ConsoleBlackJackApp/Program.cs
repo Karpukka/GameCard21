@@ -10,7 +10,7 @@ namespace ConsoleBlackJackApp
     {
         public static void ShowStats(BlackJack bj)
         {
-            Console.WriteLine("Протвник");
+            Console.WriteLine("Противник");
             foreach (Card c in bj.Dealer.Hand)
             {
                 Console.WriteLine(string.Format("{0},{1}", c.ID, c.Suit));
