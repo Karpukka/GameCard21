@@ -18,7 +18,7 @@ namespace ConsoleBlackJackApp
             Console.WriteLine(bj.Dealer.Hand.Value);
             Console.WriteLine(Environment.NewLine);
 
-            Console.WriteLine("Игрок");
+            Console.WriteLine("Игрок1");
             foreach (Card c in bj.Player.Hand)
             {
                 Console.WriteLine(string.Format("{0},{1}", c.ID, c.Suit));
